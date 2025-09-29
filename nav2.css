@@ -48,6 +48,7 @@ button{
     margin: 3px;
     padding: 3px;
     border-radius: 3px;
+    stroke: none;
 }
 
 button a{
@@ -86,4 +87,22 @@ p{
     align-content: center;
     background-color: darkorange;
 
+}
+
+main#contents{
+    max-width: var(--max-width);
+    margin: 38px auto;
+    padding: calc(var(--container-padding) * 1.25);
+    display: block;
+}
+
+
+main#contents section{
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 28px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0, 0, 0,0,04);
+    position: relative;
+    overflow: hidden;
 }
